@@ -1,0 +1,18 @@
+.chat{
+    background-color: antiquewhite;
+    border-radius: 0.5rem;
+    width: 80%;
+    height: 2.5rem;
+    border-bottom: 0.1rem solid black;
+    cursor: pointer;
+}
+.chatuser{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.chatuser img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}

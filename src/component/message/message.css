@@ -1,0 +1,48 @@
+/*  own messages  */
+.owndiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: flex-end;
+}
+.ownmessage{
+    background-color: yellow;
+    max-width: 60%;
+    border-radius: 0.5rem;
+    border-top-right-radius: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1rem solid black;
+}
+/* others messages */ 
+.div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: flex-start;
+}
+.message{
+    background-color: gray;
+    max-width: 60%;
+    border-radius: 0.5rem;
+    border-top-left-radius: 0;
+    display: flex;
+    border-bottom: 0.1rem solid black;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content p {
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+.contentimg{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}

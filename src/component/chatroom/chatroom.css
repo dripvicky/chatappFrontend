@@ -1,0 +1,104 @@
+.chatroom{
+    gap: 0.2rem;
+    display: flex;
+    background-color: black;
+    height: calc(100vh - 2.5rem);
+    width: 100wh;
+}
+.chatbox{
+    flex: 3;
+    background-color: black;
+    height: 100%;
+    padding: 0.5rem;
+}
+.chatboxwrap{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.messagebox{
+    flex: 6;
+    background-color: black;
+    height: 90%;
+    padding: 0.5rem;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.messageboxwrap{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.usersbox{
+    flex: 3;
+    background-color: black;
+    height: 100%;
+    padding: 0.5rem;
+}
+.usersboxwrap{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.inputbox{
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    gap: 0.3rem;
+}
+.inputbox input{
+    height: 3em;
+    width: 33em;
+    border-radius: 0.3rem;
+    border: 0;
+}
+.inputbox button{
+    height: 3em;
+    width: 7rem;
+}
+.welcome{
+    color: white;
+    margin-top: 40%;
+    opacity: 0.3;
+}
+
+.msgdiv{
+    width: 100%;
+    transform-style: inherit;
+}
+
+@media only screen and (max-width: 400px) {
+    .inputbox input {
+      width: 100px;
+    }
+    .chatroom{
+        width: 400px;
+    }
+    .messagebox{
+        width: 100%;
+    }
+    .usersbox{
+        width: 25px;
+    }
+    .chatbox{
+        width: 25px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .inputbox input {
+      width: 100px;
+    }
+    .chatroom{
+        width: 480px;
+    }
+    .messagebox{
+        width: 100%;
+    }
+    .usersbox{
+        width: 25px;
+    }
+    .chatbox{
+        width: 25px;
+    }
+  }
