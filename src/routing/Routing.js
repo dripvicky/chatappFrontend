@@ -7,9 +7,9 @@ import { Route, Routes } from 'react-router-dom'
 const Routing = () => {
   return (
     <Routes>
-      <Route path='https://chatfrontend-5skj.onrender.com' element={<Signup/>} />
-      <Route path='https://chatfrontend-5skj.onrender.com/login' element={<Login/>} />
-      <Route path='https://chatfrontend-5skj.onrender.com/chatroom' element={<Chatroom/>} />
+      <Route path='/' element={<Signup/>} />
+      <Route path='/login' element={<Login/>} />
+      <Route path='/chatroom' element={<Chatroom/>} />
     </Routes>
   )
 }
