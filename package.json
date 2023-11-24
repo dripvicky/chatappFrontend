@@ -2,7 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://chatfrontend-5skj.onrender.com"
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -41,4 +40,7 @@
       "last 1 safari version"
     ]
   }
+  .
+  "homepage":"https://chatfrontend-5skj.onrender.com/"
+  .
 }
